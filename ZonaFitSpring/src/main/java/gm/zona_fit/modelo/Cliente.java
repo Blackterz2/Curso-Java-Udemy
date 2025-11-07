@@ -15,9 +15,8 @@ import lombok.*;
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Integer id;
+    private Integer id;
     private String nombre;
     private String apellido;
     private Integer membresia;
 }
-// CLASE DE INDENTIDAD
